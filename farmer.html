@@ -1,0 +1,27 @@
+<?php
+$mysqli = new myssqli('localhost','','','agrimax') or die(mysqli_error($mysqli));
+<!DOCTYPE html>
+<html>
+<head>
+	<title>farmer</title>
+</head>
+<body>
+
+<h1>farmer page</h1>
+<form>
+<table border="0" align="center">
+	<tr>
+		<td>Item</td>
+		<td><input type="text" name="item"></td>
+	</tr>
+	<tr>
+		<td>Price</td>
+		<td><input type="number" name="Minimum price"></td>
+	</tr>
+	<tr><td><button onclick="selling.html"><a href="selling.html">Submit</a></button></td></tr>
+	<!-- <tr><td><input type="submit" name="Submit" align="center"></td></tr> -->
+
+</table>
+<!-- <button onclick="index.html"><a href="index.html">Submit</a></button>
+ --></body>
+</html>
